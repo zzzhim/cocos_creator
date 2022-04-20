@@ -13,22 +13,28 @@ export class FSMManager {
 
   /**
    * 
+   * @param {number} StateId
    * @description 改变状态
    */
   changeState(StateId: number) {
     this.CurrentIndex = StateId
 
     if(this.CurrentIndex !== -1) {
+      const fsmManager = this.stateList.find(fsm => fsm.StateId === this.CurrentIndex)
       // 调用新状态的 onEnter 方法
-      this.stateList[this.CurrentIndex].onEnter()
+      fsmManager?.onEnter()
     }
   }
 
-  // 更新调用
+  /**
+   * 
+   * @description 更新调用
+   */
   onUpdate() {
     if(this.CurrentIndex !== -1) {
       // 调用当前状态的 onUpdate 方法
-      this.stateList[this.CurrentIndex].onUpdate()
+      const fsmManager = this.stateList.find(fsm => fsm.StateId === this.CurrentIndex)
+      fsmManager?.onUpdate()
     }
   }
 }

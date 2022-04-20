@@ -1,13 +1,21 @@
 {
   "game": {
-    "name": "未知游戏",
-    "app_id": "UNKNOW",
+    "app_id": "604357438",
+    "name": "mini_game_20220420142223",
     "c_id": "0"
   },
   "appConfigMaps": [
     {
       "app_id": "UNKNOW",
       "config_id": "070bbd"
+    },
+    {
+      "app_id": "604357433",
+      "config_id": "59bc77"
+    },
+    {
+      "app_id": "604357438",
+      "config_id": "04ae57"
     }
   ],
   "configs": [
@@ -17,6 +25,36 @@
       "config_name": "Default",
       "config_remarks": "",
       "services": []
+    },
+    {
+      "app_id": "604357433",
+      "config_id": "59bc77",
+      "config_name": "Default",
+      "config_remarks": "",
+      "services": []
+    },
+    {
+      "app_id": "604357438",
+      "config_id": "04ae57",
+      "config_name": "Default",
+      "config_remarks": "",
+      "services": [
+        {
+          "service_id": "235",
+          "enable": false,
+          "param": {}
+        },
+        {
+          "service_id": "316",
+          "enable": false,
+          "param": {}
+        },
+        {
+          "service_id": "278",
+          "enable": false,
+          "param": {}
+        }
+      ]
     }
   ]
 }
