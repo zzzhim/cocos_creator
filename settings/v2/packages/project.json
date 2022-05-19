@@ -3,8 +3,14 @@
     "designResolution": {
       "fitHeight": false,
       "fitWidth": false,
-      "width": 1000,
-      "height": 1000
+      "width": 4000,
+      "height": 1847
+    }
+  },
+  "__version__": "1.0.2",
+  "fbx": {
+    "legacyFbxImporter": {
+      "visible": true
     }
   }
 }

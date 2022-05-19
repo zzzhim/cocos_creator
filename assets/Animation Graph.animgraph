@@ -1,0 +1,203 @@
+[
+  {
+    "__type__": "cc.animation.AnimationGraph",
+    "_name": "",
+    "_objFlags": 0,
+    "_native": "",
+    "_layers": [
+      {
+        "__id__": 1
+      }
+    ],
+    "_variables": {}
+  },
+  {
+    "__type__": "cc.animation.Layer",
+    "_stateMachine": {
+      "__id__": 2
+    },
+    "name": "Run",
+    "weight": 1,
+    "mask": null
+  },
+  {
+    "__type__": "cc.animation.StateMachine",
+    "__editorExtras__": {
+      "viewport": {
+        "scale": 1.2400000000000002,
+        "top": -4.93607290052449,
+        "left": 73.8673762084624
+      }
+    },
+    "_states": [
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 4
+      },
+      {
+        "__id__": 5
+      },
+      {
+        "__id__": 6
+      },
+      {
+        "__id__": 11
+      },
+      {
+        "__id__": 12
+      }
+    ],
+    "_transitions": [
+      {
+        "__id__": 14
+      },
+      {
+        "__id__": 15
+      }
+    ],
+    "_entryState": {
+      "__id__": 3
+    },
+    "_exitState": {
+      "__id__": 4
+    },
+    "_anyState": {
+      "__id__": 5
+    }
+  },
+  {
+    "__type__": "cc.animation.State",
+    "__editorExtras__": {
+      "centerX": -392,
+      "centerY": -76,
+      "id": "16528888041390.8281662055726595"
+    },
+    "name": "Entry"
+  },
+  {
+    "__type__": "cc.animation.State",
+    "name": "Exit"
+  },
+  {
+    "__type__": "cc.animation.State",
+    "__editorExtras__": {
+      "centerX": -52.41935483870964,
+      "centerY": -63.70967741935482,
+      "id": "16528888670600.7401282960572348"
+    },
+    "name": "Any"
+  },
+  {
+    "__type__": "cc.animation.SubStateMachine",
+    "__editorExtras__": {
+      "centerX": -205.54925611790878,
+      "centerY": 113.14460511679636,
+      "id": "16528888024660.5945235816317735"
+    },
+    "name": "State Machine",
+    "_components": [],
+    "_stateMachine": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "cc.animation.StateMachine",
+    "__editorExtras__": {
+      "viewport": {
+        "scale": 1,
+        "top": 0,
+        "left": 0
+      }
+    },
+    "_states": [
+      {
+        "__id__": 8
+      },
+      {
+        "__id__": 9
+      },
+      {
+        "__id__": 10
+      }
+    ],
+    "_transitions": [],
+    "_entryState": {
+      "__id__": 8
+    },
+    "_exitState": {
+      "__id__": 9
+    },
+    "_anyState": {
+      "__id__": 10
+    }
+  },
+  {
+    "__type__": "cc.animation.State",
+    "name": "Entry"
+  },
+  {
+    "__type__": "cc.animation.State",
+    "name": "Exit"
+  },
+  {
+    "__type__": "cc.animation.State",
+    "name": "Any"
+  },
+  {
+    "__type__": "cc.animation.EmptyState",
+    "__editorExtras__": {
+      "centerX": -273.14919354838696,
+      "centerY": -133.1935624153383,
+      "id": "16528888459330.09778468785533923"
+    },
+    "name": "Empty"
+  },
+  {
+    "__type__": "cc.animation.Motion",
+    "__editorExtras__": {
+      "centerX": -322.3427419354838,
+      "centerY": -194.48388499598337,
+      "id": "16528888707710.28447015652775787"
+    },
+    "name": "Clip Motion",
+    "_components": [],
+    "motion": {
+      "__id__": 13
+    },
+    "speed": 1,
+    "speedMultiplier": "",
+    "speedMultiplierEnabled": false
+  },
+  {
+    "__type__": "cc.animation.ClipMotion",
+    "__editorExtras__": {
+      "id": "16528888707690.013856306185103806",
+      "centerX": 0,
+      "centerY": 0,
+      "name": ""
+    },
+    "clip": null
+  },
+  {
+    "__type__": "cc.animation.Transition",
+    "from": {
+      "__id__": 3
+    },
+    "to": {
+      "__id__": 6
+    },
+    "conditions": []
+  },
+  {
+    "__type__": "cc.animation.Transition",
+    "from": {
+      "__id__": 3
+    },
+    "to": {
+      "__id__": 11
+    },
+    "conditions": []
+  }
+]
